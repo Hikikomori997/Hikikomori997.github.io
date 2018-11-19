@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 100;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1240px; 
+    padding: 0 10px;
+  }
+  
+  .header {
+    background: url(4.jpg) no-repeat center center; 
+    background-attachment: fixed;
+    background-size: cover;
+    height: 850px;
+    text-align: center; 
+  }
+  
+  
+  .nav { 
+    background: transparent;
+    height: 80px; 
+    width: 100%;
+  }
+  
+  .nav ul {
+    height: 80px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .nav ul li {
+    color: #fff;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 30px;
+    transition: background .5s;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .nav ul li:hover{
+    background: #000;
+    cursor: pointer; 
+    transition: background .5s;
+  }
+  
+  .header h1 {
+    color: #fff;
+    line-height: 100px; 
+    font-size: 90px;
+    margin-top: 10;
+    margin-bottom: 80px; 
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .header p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .main {
+      background: url(3.jpg) no-repeat;
+      background-size: cover;
+      height: 800px;
+      background-attachment: fixed;
+  }
+  
+  .main p{
+      font-size: 20px;
+      color: #fff;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      line-height: 34px;
+      margin-top: 0;
+      margin-bottom: 30%;
+      padding: 50px 50px 50px 50px;
+      margin-left: 65%;
+      transition: background .5s;
+  }
+  
+  .main p:hover{
+    background: #000;
+    cursor: pointer; 
+    transition: background .5s;
+  }
+  
+  .footer{
+      background-color: #000;
+      height: 200px;
+  }
+  
+  .footer ul{
+      font-size: 20px;
+      color: #fff;
+      list-style: none;
+      line-height: 25px;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 10px;
+  }
+  .footer p{
+      font-size: 20px;
+      color: #fff;
+      margin-bottom: 0;
+  }
+  
+  a:link {
+      text-decoration: none;
+      color: #fff;
+  }
+  a:visited{
+      text-decoration: none;
+      color: #fff;
+  }
+  
